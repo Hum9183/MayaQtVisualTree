@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0.0"
+                    ProductType="Application"
+                    AutodeskProduct="Maya"
+                    Name="QtVisualTree"
+                    Description=""
+                    AppVersion="1.0.0"
+                    Author="Hum9183(Miyakawa Takeshi)"
+                    AppNameSpace="com.autodesk.exchange.maya.qtvisualtree"
+                    HelpFile=""
+                    OnlineDocumentation=""
+                    ProductCode="*">
+    <CompanyDetails Name="Hum9183"
+                    Phone=" "
+                    Url=""
+                    Email=""/>
+    <RuntimeRequirements SupportPath="./Contents" OS="win64" Platform="Maya" SeriesMin="2022"/>
+    <Components>
+        <RuntimeRequirements SupportPath="./Contents" OS="win64" Platform="Maya" SeriesMin="2022"/>
+        <ComponentEntry ModuleName="./scripts/userSetup.py"/>
+    </Components>
+</ApplicationPackage>
